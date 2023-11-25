@@ -1,7 +1,6 @@
 function Filter({onFilter}) {
 
     function handleSelect(e) {
-      console.log(e.target.value);
       onFilter(e.target.value)
     }
 
